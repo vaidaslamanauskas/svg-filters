@@ -1,0 +1,74 @@
+<html>
+<head>
+  <style>
+    body {
+      background-color: #cc9966;
+      color: #ffebcd;
+      font-family: Helvetica, sans-serif;
+    }
+    
+    p {
+      font-size: 24px;
+      line-height: 1;
+      filter: url(#n1);
+    }
+    
+    small {
+      font-size: 14px;
+      line-height: 1;
+      filter: url(#n1);
+    }
+    
+    svg {}
+  </style>
+</head>
+<body>
+  <p>Ironically, perhaps the best way to develop cutting-edge ideas is to start by breaking things down to the fundamentals. Even if you aren't trying to develop innovative ideas, understanding the first principles of your field is a smart use of your time. Without a firm grasp of the basics, there is little chance of mastering the details that make the difference at elite levels of competition.</p>
+  <small>Instead of "try harder" , try softer</small>
+  
+  <svg width="0" height="0" viewBox="-500 -500 1000 1000">
+    <defs>
+      <filter id="n0">
+        <feTurbulence type="turbulence" baseFrequency="0.001 0.1" numOctaves="5" result="NOISE"></feTurbulence>
+        <feGaussianBlur in="SourceGraphic" result="BLURRED" stdDeviation="4.5"></feGaussianBlur>
+        <feDisplacementMap in2="NOISE" in="BLURRED" scale="50" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+      </filter>
+      <filter id="n1">
+        <feTurbulence type="fractalNoise" baseFrequency="0.001 0.001" numOctaves="5" result="NOISE" seed="170204"></feTurbulence>
+        <feGaussianBlur in="SourceGraphic" result="BLURRED" stdDeviation="0"></feGaussianBlur>
+        <feDisplacementMap id="displacer" in2="NOISE" in="BLURRED" scale="33" xChannelSelector="R" yChannelSelector="R" result="DISPLACED"></feDisplacementMap>
+      </filter>
+      <filter id="n2">
+        <feTurbulence type="fractalNoise" baseFrequency="0.001 0.001" numOctaves="5" result="NOISE" seed="183047"></feTurbulence>
+        <feGaussianBlur in="SourceGraphic" result="BLURRED" stdDeviation="0"></feGaussianBlur>
+        <feDisplacementMap id="displacer" in2="NOISE" in="BLURRED" scale="33" xChannelSelector="R" yChannelSelector="R" result="DISPLACED"></feDisplacementMap>
+      </filter>
+      <filter id="n3">
+        <feTurbulence type="fractalNoise" baseFrequency="0.001 0.001" numOctaves="5" result="NOISE" seed="183144"></feTurbulence>
+        <feGaussianBlur in="SourceGraphic" result="BLURRED" stdDeviation="0"></feGaussianBlur>
+        <feDisplacementMap id="displacer" in2="NOISE" in="BLURRED" scale="33" xChannelSelector="R" yChannelSelector="R" result="DISPLACED"></feDisplacementMap>
+      </filter>
+      <filter id="n4">
+        <feTurbulence type="fractalNoise" baseFrequency="0.001 0.001" numOctaves="5" result="NOISE" seed="183227"></feTurbulence>
+        <feGaussianBlur in="SourceGraphic" result="BLURRED" stdDeviation="0"></feGaussianBlur>
+        <feDisplacementMap id="displacer" in2="NOISE" in="BLURRED" scale="33" xChannelSelector="R" yChannelSelector="R" result="DISPLACED"></feDisplacementMap>
+      </filter>
+      <filter id="n5">
+        <feTurbulence type="fractalNoise" baseFrequency="0.001 0.001" numOctaves="5" result="NOISE" seed="183236"></feTurbulence>
+        <feGaussianBlur in="SourceGraphic" result="BLURRED" stdDeviation="0"></feGaussianBlur>
+        <feDisplacementMap id="displacer" in2="NOISE" in="BLURRED" scale="33" xChannelSelector="R" yChannelSelector="R" result="DISPLACED"></feDisplacementMap>
+      </filter>
+      <filter id="n6">
+        <feTurbulence type="fractalNoise" baseFrequency="0.001 0.001" numOctaves="5" result="NOISE" seed="183349"></feTurbulence>
+        <feGaussianBlur in="SourceGraphic" result="BLURRED" stdDeviation="0"></feGaussianBlur>
+        <feDisplacementMap id="displacer" in2="NOISE" in="BLURRED" scale="33" xChannelSelector="R" yChannelSelector="R" result="DISPLACED"></feDisplacementMap>
+      </filter>
+      <filter id="n7">
+        <feTurbulence type="fractalNoise" baseFrequency="0.001 0.001" numOctaves="5" result="NOISE" seed="183403"></feTurbulence>
+        <feGaussianBlur in="SourceGraphic" result="BLURRED" stdDeviation="0"></feGaussianBlur>
+        <feDisplacementMap id="displacer" in2="NOISE" in="BLURRED" scale="33" xChannelSelector="R" yChannelSelector="R" result="DISPLACED"></feDisplacementMap>
+      </filter>
+    </defs>
+    </svg>
+</body>
+</html>
